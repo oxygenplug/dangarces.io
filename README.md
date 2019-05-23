@@ -2,10 +2,9 @@ _Psst — looking for a shareable component template? Go here --> [sveltejs/com
 
 ---
 
-# svelte app
+# Personal Website
 
 Created with [Svelte](https://svelte.dev)
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ## Get started
 
