@@ -10,7 +10,7 @@
   }
   section {
     width: 100%;
-    height: 100%;
+    height: 102%;
     color: #333;
   }
 
@@ -88,7 +88,11 @@
   }
 
   .body-text {
-    font-size: 1.75em;
+    font-size: 3rem;
+  }
+
+  .body-text > p {
+    font-size: 2.35rem;
   }
 
   .flow-container {
@@ -134,7 +138,11 @@
     .flow-container {
       margin: 2vh auto;
       width: 80vw;
-      min-height: 75vh;
+      min-height: 80vh;
+    }
+
+    #skills-grid {
+      grid-row-gap: 15vh;
     }
   }
 </style>
@@ -145,7 +153,7 @@
       id="skills"
       in:fly={{ x: 200, duration: 500 }}
       out:fly={{ x: -200, duration: 500 }}>
-      <div class="grid-container">
+      <div class="grid-container" id="skills-grid">
         <div class="headOne">
           <span class="full-center title">Front End</span>
         </div>
@@ -183,7 +191,7 @@
                 <span class="full-center title">Hey! My name is Dan.</span>
               </div>
               <div class="headTwo">
-                <span class="full-center title">Some more about me</span>
+                <span class="full-center title" />
               </div>
               <div class="bodyOne">
                 <span class="full-center body-text">
@@ -200,9 +208,7 @@
                   <p>
                     I am also a music lover and muscian, I self-produced and
                     released my own acoustic EP for free at spera.bandcamp.com.
-                    I listen to almost everything (truly!) but I love
-                    Post-Hardcore and Progressive Metal the most! I spent most
-                    of my free time nowadays playing guitar.
+                    I spent most of my free time nowadays playing guitar.
                   </p>
                 </span>
               </div>
@@ -253,11 +259,13 @@
                 <h4>
                   <span>
                     <a href="mailto:dan.garces2@gmail.com">
-                     <i class="fas fa-envelope logo"></i>
+                      <i class="fas fa-envelope logo" />
                     </a>
-                    <strong > <a  href="mailto:dan.garces2@gmail.com">
-                      dan.garces2@gmail.com
-                    </a></strong>
+                    <strong>
+                      <a href="mailto:dan.garces2@gmail.com">
+                        dan.garces2@gmail.com
+                      </a>
+                    </strong>
                   </span>
                 </h4>
               </div>
@@ -267,8 +275,18 @@
               <div class="column column-50 column-offset-15">
                 <h4>
                   <span>
-                    <a target="_blank" href="https://www.linkedin.com/in/dgarces2/"><i class="fab fa-linkedin logo" /></a>
-                    <strong><a target="_blank" href="https://www.linkedin.com/in/dgarces2/" >LinkedIn</a></strong>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/dgarces2/">
+                      <i class="fab fa-linkedin logo" />
+                    </a>
+                    <strong>
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/dgarces2/">
+                        LinkedIn
+                      </a>
+                    </strong>
                   </span>
                 </h4>
               </div>
@@ -278,8 +296,15 @@
               <div class="column column-50 column-offset-15">
                 <h4>
                   <span>
-                    <a target="_blank" href="https://github.com/oxygenplug"><i class="fab fa-github logo" /></a>
-                   <strong><a target="_blank" href="https://github.com/oxygenplug" >GitHub</a></strong>
+                    <a target="_blank" href="https://github.com/oxygenplug">
+                      <i class="fab fa-github logo" />
+                    </a>
+                    <strong>
+                      <a target="_blank" href="https://github.com/oxygenplug">
+                        GitHub
+                      </a>
+                    </strong>
+                  </span>
                 </h4>
               </div>
             </div>
